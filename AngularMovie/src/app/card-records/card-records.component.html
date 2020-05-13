@@ -1,0 +1,39 @@
+<div class="card">
+    <div class="card-header">
+        {{pageTitle}}
+    </div>
+    
+    <div class="table-responsive">
+        <table class="table" *ngIf='cardrecords && cardrecords.length>0'>
+            <thead>
+                <tr>
+                    <th>
+                        <button class="btn btn-primary" [routerLink]="['/card-update']">
+                            Add New
+                        </button>
+                    </th>
+                </tr>
+                <tr>
+                    <th>PMId</th>
+                    <th>CardOwnerName</th>
+                    <th>CardNumber</th>
+                    <th>ExpirationDate</th>
+                    <th>CVV</th>
+                    <th></th>
+                </tr>
+            </thead>
+            <tbody>
+                    <tr *ngFor='let card of cardrecords'>
+                        <td>{{card.pmId}}</td>
+                        <td>{{card.cardOwnerName}}</td>
+                        <td>{{card.cardNumber}}</td>
+                        <td>{{card.expirationDate}}</td>
+                        <td>{{card.cvv}}</td>
+                        <td><button class="btn btn-primary" [routerLink]="['/card-update', card.pmId]">
+                            Edit
+                        </button></td>
+                    </tr>
+            </tbody>
+        </table>
+    </div>
+</div>

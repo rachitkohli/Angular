@@ -1,0 +1,36 @@
+[{
+    "movieId" : 1,
+    "movieName" : "Armageddon",
+    "movieGenre": "Sci-Fi",
+    "releaseDate": "May 9 2020",
+    "description": "A sci-fi movie on Planet hits Earth",
+    "starRating": 4.8,
+    "image":"../assets/images/armageddon.jpeg"
+  },
+  {
+    "movieId" : 2,
+    "movieName" : "Bloodsport",
+    "movieGenre": "Action",
+    "releaseDate": "June 1 1995",
+    "description": "A martial art movie from Van Damme",
+    "starRating": 4.5,
+    "image":"../assets/images/bloodsport.jpeg"
+  },
+  {
+    "movieId" : 3,
+    "movieName" : "KungFu Hustle",
+    "movieGenre": "Comedy, Action",
+    "releaseDate": "Dec 15 2001",
+    "description": "A comedy movie with lot of fiction Action",
+    "starRating": 3.5,
+    "image":"../assets/images/kungfu.jpeg"
+  },
+  {
+    "movieId" : 4,
+    "movieName" : "Time Machine",
+    "movieGenre": "Sci-Fi",
+    "releaseDate": "Apr 05 1992",
+    "description": "A movie where people travel in time in Future & Past",
+    "starRating": 2.5,
+    "image":"../assets/images/timemachine.jpeg"
+  }]
